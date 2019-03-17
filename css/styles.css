@@ -84,6 +84,7 @@ form.example::after {
   transform: rotate(-45deg);
   margin: 10px -27px 0px 0px;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .WHO {
