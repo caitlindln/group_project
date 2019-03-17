@@ -5,6 +5,11 @@ body
   background: #fff;
   font-family: sans-serif;
 }
+h2 {
+  text-align: center;
+  font-size: 12px;
+  margin: 20px 0px -12px 0px;
+}
 .container
 {
   width: 1200px;
@@ -19,7 +24,8 @@ body
   width: 300px;
   height: 300px;
   background: #ff0;
-  margin: 10px;
+  margin: 35px;
+  border: 10px solid #e9ecef;
   box-sizing: border-box;
   display: inline-block;
   overflow: hidden;
@@ -66,4 +72,60 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.menu {
+  margin:  130px 0px 0px 150px;
+  Padding: 10px 10px 10px 10px;
+
+}
+
+.title {
+  transform: rotate(-45deg);
+  margin: 10px -27px 0px 0px;
+  color: white;
+}
+
+.WHO {
+  height: 80px;
+  width: 80px;
+  border: 1px solid grey;
+  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+  background-image:url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+}
+.WHY {
+  height: 80px;
+  width: 80px;
+  border: 1px solid grey;
+  margin: -10px 0px 0px -70px;
+  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+  background-image: url("https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+}
+.WHAT {
+  height: 80px;
+  width: 80px;
+  border: 1px solid grey;
+  margin: -10px 0px 0px 0px;
+  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+  background-image: url("https://images.pexels.com/photos/459469/pexels-photo-459469.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+}
+.HOW {
+  height: 80px;
+  width: 80px;
+  border: 1px solid grey;
+  margin: -10px 0px 0px -70px;
+  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+  background-image: url("https://images.pexels.com/photos/5929/food-salad-dinner-eating.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+}
+.CONTACT {
+  height: 80px;
+  width: 80px;
+  border: 1px solid grey;
+  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+  background-image: url("https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
 }
