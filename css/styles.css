@@ -15,8 +15,19 @@ body
   height: 100%;
   width: 100%;
 }
-
-
+.fa-drumstick-bite {
+  color: #d16327;
+}
+.fa-fish {
+  color: #42f4f1;
+}
+.fa-seedling {
+  color: #48ea5e;
+}
+.fa-drumstick-bite, .fa-fish, .fa-seedling {
+  font-size: 4em;
+  margin: 1rem;
+}
 h2 {
   text-align: center;
   font-size: 40px;
