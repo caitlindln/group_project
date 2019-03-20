@@ -135,17 +135,26 @@ form.example::after {
   display: table;
 }
 
+
+/* About Page */
+
+.headerlogo {
+	width: 80px;
+	height: 70px;
+  padding-left: 10px;
+}
+
+
 .menu {
   margin:  130px 0px 0px 150px;
   Padding: 10px 10px 10px 10px;
   }
 
-
-
+/* Navbar */
 .navbar {
   background:RGBA(25,163,153,1);
   font-family: 'Lobster', cursive;
-  padding-bottom: 10px;}
+  padding-bottom: 32px;}
 
 .nav-link {
   color:white;
@@ -157,17 +166,21 @@ form.example::after {
   padding: 10px;
 }
 
+.navbar-toggler {
+  border-color: white;
+}
+
 .navbar-brand {
   color: white;}
 
-headerlogo {
-	width: 80px;
-	height: 70px;
-  padding-left: 10px;
-}
 
-.service {
-  background-image: url("burger.jpeg");
+/* Content */
+
+#background  {
+  width:auto;
+  margin: 0 auto;
+  position:relative;
+  background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -176,13 +189,12 @@ headerlogo {
 
 @media (min-width: 600px) {
   .service {
-    min-height: 850px;
-  }
+    min-height: 850px;}
 }
 
 .contain {
   display: grid;
-  grid-template-columns: 600px 800px 1500px;
+  grid-template-columns: 1fr 2fr 4fr;
   grid-template-rows: 1500px;
   grid-gap: 10px;
   margin: 128px 0px 0px 0px;
@@ -194,6 +206,16 @@ headerlogo {
   padding: 50px auto;
 }
 
+/* FOOTER */
 .footer {
-  background: rgba(0,0,0);
+  background: RGBA(25,163,153);
+  padding-top: 50px 0px 50px 0px;
+}
+
+.footer, .p {
+  margin-top: 10px;
+  padding-top: 15px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 15px;
 }
