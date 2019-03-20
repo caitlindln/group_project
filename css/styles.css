@@ -30,6 +30,9 @@ body
   font-size: 4em;
   margin: 1rem;
 }
+.fa-twitter, .fa-facebook, .fa-youtube, .fa-instagram {
+  color: #000
+}
 h2 {
   text-align: center;
   font-size: 40px;
@@ -129,11 +132,6 @@ form.example::after {
 
 .navbar-brand {
   color: white;}
-
-img {
-	width: 95px;
-	height: 100px;
-}
 
 .service {
   background-size: cover;
