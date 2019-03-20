@@ -189,7 +189,8 @@ form.example::after {
 
 @media (min-width: 600px) {
   .service {
-    min-height: 850px;}
+    min-height: 850px;
+  font-size:12px}
 }
 
 .contain {
