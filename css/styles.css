@@ -175,7 +175,10 @@ form.example::after {
 }
 
 
-/* About Page */
+#headerlog {
+    max-width:700px;
+    height:70px;
+}
 
 .headerlogo {
 	width: 80px;
