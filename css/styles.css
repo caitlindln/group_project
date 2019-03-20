@@ -4,6 +4,8 @@ body
   padding: 0;
   background: #fff;
   font-family: sans-serif;
+  color:white;
+
 }
   /* <!-- Index.html --> */
 .carousel-item
@@ -77,18 +79,19 @@ h2 {
 /* Style the submit button */
 form.example button {
   float: left;
-  width: 0,5%;
-  padding: 10px;
-  background: white;
-  color: black;
-  font-size: 17px;
+  width: 0,8%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #19A399;
+  color: white;
+  font-size: 22px;
   border: 1px ;
   border-left: none; /* Prevent double borders */
   cursor: pointer;
 }
 
 form.example button:hover {
-  background: light;
+  background: #19A399;
 }
 
 /* Clear floats */
@@ -101,56 +104,56 @@ form.example::after {
 .menu {
   margin:  130px 0px 0px 150px;
   Padding: 10px 10px 10px 10px;
+  }
 
+
+
+.navbar {
+  background:RGBA(25,163,153,1);
+  font-family: 'Lobster', cursive;
+  padding-bottom: 10px;}
+
+.nav-link {
+  color:white;
+  font-size: 25px;
+  padding:10px;
 }
 
-.title {
-  transform: rotate(-45deg);
-  margin: 10px -27px 0px 0px;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
+.nav-item {
+  padding: 10px;
 }
 
-.WHO {
-  height: 80px;
-  width: 80px;
-  border: 1px solid grey;
-  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
-  background-image:url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-  background-size: cover;
+.navbar-brand {
+  color: white;}
+
+img {
+	width: 95px;
+	height: 100px;
 }
-.WHY {
-  height: 80px;
-  width: 80px;
-  border: 1px solid grey;
-  margin: -10px 0px 0px -70px;
-  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
-  background-image: url("https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+
+.service {
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block
 }
-.WHAT {
-  height: 80px;
-  width: 80px;
-  border: 1px solid grey;
-  margin: -10px 0px 0px 0px;
-  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
-  background-image: url("https://images.pexels.com/photos/459469/pexels-photo-459469.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-  background-size: cover;
+
+@media (min-width: 600px) {
+  .service {
+    min-height: 850px;
+  }
 }
-.HOW {
-  height: 80px;
-  width: 80px;
-  border: 1px solid grey;
-  margin: -10px 0px 0px -70px;
-  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
-  background-image: url("https://images.pexels.com/photos/5929/food-salad-dinner-eating.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
-  background-size: cover;
+
+.contain {
+  display: grid;
+  grid-template-columns: 800px 600px 1500px;
+  grid-template-rows: 1500px;
+  grid-gap: 10px;
+  margin: 128px 0px 0px 0px;
+  padding: 0px;
 }
-.CONTACT {
-  height: 80px;
-  width: 80px;
-  border: 1px solid grey;
-  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
-  background-image: url("https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-  background-size: cover;
+
+.contain .h1 {
+  margin-top: 50px;
+  padding: 50px auto;
 }
