@@ -26,16 +26,23 @@ body
 .fa-seedling {
   color: #48ea5e;
 }
-.fa-drumstick-bite, .fa-fish, .fa-seedling {
+.fa-drumstick-bite, .fa-fish, .fa-seedling, .fa-twitter, .fa-facebook, .fa-youtube, .fa-instagram {
   font-size: 4em;
   margin: 1rem;
+}
+.fa-twitter, .fa-facebook, .fa-youtube, .fa-instagram {
+  color: #000
 }
 h2 {
   text-align: center;
   font-size: 40px;
   margin: 20px 0px -12px 0px;
+  color: #000
 }
-/*  <!-- sweet treats page -->*/
+h3 {
+  color: #000
+}
+/*  <!-- recipe pages -->*/
 .container
 {
   width: 1200px;
@@ -126,7 +133,7 @@ form.example::after {
 .navbar-brand {
   color: white;}
 
-img {
+headerlogo {
 	width: 145px;
 	height: 160px;
   padding-left: 10px;
