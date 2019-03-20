@@ -154,7 +154,7 @@ form.example::after {
 .navbar {
   background:RGBA(25,163,153,1);
   font-family: 'Lobster', cursive;
-  padding-bottom: 20px;}
+  padding-bottom: 32px;}
 
 .nav-link {
   color:white;
@@ -194,7 +194,7 @@ form.example::after {
 
 .contain {
   display: grid;
-  grid-template-columns: 600px 800px 1500px;
+  grid-template-columns: 1fr 2fr 4fr;
   grid-template-rows: 1500px;
   grid-gap: 10px;
   margin: 128px 0px 0px 0px;
@@ -206,12 +206,14 @@ form.example::after {
   padding: 50px auto;
 }
 
+/* FOOTER */
 .footer {
   background: RGBA(25,163,153);
-  padding-top: 10px 0px 0px 0px;
+  padding-top: 50px 0px 50px 0px;
 }
 
 .footer, .p {
+  margin-top: 10px;
   padding-top: 15px;
   color: white;
   font-family: 'Lobster', cursive;
