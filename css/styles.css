@@ -104,6 +104,37 @@ h2 {
 {
   transform: scale(1.2);
 }
+.container .box .overlay-text{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(255,255,255,.8)
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.container .box:hover .overlay-text{
+  transform: scaleY(0);
+}
+.containter .box .overlay-text .content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #000;
+}
+.containter .box .overlay-text .content h3{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #000;
+}
+.containter .box .overlay-text .content p{
+  margin: 10px 0 0;
+  padding: 0;
+}
 
 * {
   box-sizing: border-box;
