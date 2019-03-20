@@ -4,11 +4,11 @@ var words = new BuildArray(NumberOfWords)
 
 // Use the following variables to
 // define your random words:
-words[1] = "salmon"
-words[2] = "prawn fried rice"
-words[3] = "fish tacos"
-words[4] = "lasagne"
-words[5] = "spaghetti bolognese"
+words[1] = "Salmon"
+words[2] = "Prawn Fried Rice"
+words[3] = "Fish Tacos"
+words[4] = "Lasagne"
+words[5] = "Spaghetti Bolognese"
 words[6] = "steak & chips"
 words[7] = "meat tacos"
 words[8] = "mugcake"
