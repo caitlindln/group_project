@@ -23,17 +23,15 @@
 
 <body>
 
-<header>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg  fixed-top">
-    <a class="navbar-brand" href="index.html">
-  <!--Header logo-->
-      <div class="headerlogo"> <img src="pictures/THS.png"> </div> </a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-RGBA(25,163,153) sticky-top" >
+    <a class="navbar-brand" href="index.html"><div class="headerlogo" style="padding-top: 20px"> The HANGRY STUDENT </div></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" ></span>
+      <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item active">
           <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
         </li>
@@ -49,19 +47,12 @@
         <li class="nav-item">
           <a class="nav-link" href="Sweet_Treats.html">Sweet Treats</a>
         </li>
-
-        <!-- Load icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!-- The form search button -->
-        <form class="example" action="action_page.php">
-        <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-
       </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchbut" style="width: 66px"><i class="fas fa-search"></i></button>
+      </form>
     </div>
   </nav>
-</header>
 
        <!---main display grid --->
   <section class="service" id="background">
