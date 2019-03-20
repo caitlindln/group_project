@@ -29,7 +29,7 @@ words[22] = "Chocolate Cake"
 words[23] = "Banana Loaf"
 words[24] = "Macaroons"
 words[25] = "Fish & Chips"
-words[26] = "Falafel Burger & Sweet Potato Fries"
+words[26] = "Falafel Burger"
 words[27] = "Beef Stir Fry"
 words[28] = "Breakfast Smoothie"
 
