@@ -161,8 +161,8 @@ form.example::after {
   color: white;}
 
 headerlogo {
-	width: 145px;
-	height: 160px;
+	width: 80px;
+	height: 70px;
   padding-left: 10px;
 }
 
@@ -196,13 +196,4 @@ headerlogo {
 
 .footer {
   background: rgba(0,0,0);
-}
-
-.last{
-  color: #484848;
-  text-align: center;
-  background: #5e544e;
-  font-size: 1em;
-  float: left;
-  margin-top: 32px;
 }
