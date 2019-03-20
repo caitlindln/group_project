@@ -186,7 +186,7 @@ form.example::after {
 }
 
 
-.menu {
+ .menu {
   margin:  130px 0px 0px 150px;
   Padding: 10px 10px 10px 10px;
   }
@@ -203,7 +203,7 @@ form.example::after {
   padding:10px;
 }
 
-.nav-item {
+/*.nav-item {
   padding: 10px;
 }
 
@@ -212,7 +212,7 @@ form.example::after {
 }
 
 .navbar-brand {
-  color: white;}
+  color: white;} */
 
 
 /* Content */
